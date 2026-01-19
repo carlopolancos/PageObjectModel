@@ -1,0 +1,9 @@
+2026-01-19 16:27:48 INFO  FindNewCarsTest:53 - --- New Test Suite Execution Started ---
+2026-01-19 16:27:55 INFO  FindNewCarsTest:65 - Launching Chrome Browser
+2026-01-19 16:27:57 INFO  FindNewCarsTest:104 - Navigated to: https://www.carwale.com/
+2026-01-19 16:28:01 INFO  FindNewCarsTest:70 - Launching Firefox Browser
+2026-01-19 16:28:04 INFO  FindNewCarsTest:104 - Navigated to: https://www.carwale.com/
+2026-01-19 16:28:10 INFO  FindNewCarsTest:65 - Launching Chrome Browser
+2026-01-19 16:28:12 INFO  FindNewCarsTest:104 - Navigated to: https://www.carwale.com/
+2026-01-19 16:28:16 INFO  FindNewCarsTest:70 - Launching Firefox Browser
+2026-01-19 16:28:20 INFO  FindNewCarsTest:104 - Navigated to: https://www.carwale.com/
