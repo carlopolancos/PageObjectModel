@@ -17,13 +17,14 @@ public class BasePage {
     public static ThreadLocal<Page> pg = new ThreadLocal<>();
     public static Properties OR = new Properties();
     private static FileInputStream fis;
+    public static CarBase carBase;
 
     public static Page getPage() { return pg.get(); }
 
     public BasePage(Page page){
         BasePage.page = page;
+        carBase = new CarBase(page);
         pg.set(BasePage.page);
-
         try {
             fis = new FileInputStream("./src/main/resources/properties/OR.properties");
         } catch (FileNotFoundException e) {

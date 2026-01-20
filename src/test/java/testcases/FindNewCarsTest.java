@@ -1,10 +1,10 @@
 package testcases;
 
+import base.BasePage;
 import base.BaseTest;
 import com.microsoft.playwright.Browser;
-import com.microsoft.playwright.BrowserType;
 import com.microsoft.playwright.Page;
-import com.microsoft.playwright.Playwright;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.HomePage;
 import pages.NewCarsPage;
@@ -14,6 +14,8 @@ import utilities.DataUtil;
 import utilities.ExcelReader;
 
 import java.util.Hashtable;
+
+import static com.microsoft.playwright.assertions.PlaywrightAssertions.assertThat;
 
 public class FindNewCarsTest extends BaseTest {
 
@@ -38,10 +40,14 @@ public class FindNewCarsTest extends BaseTest {
           case "toyota" -> cars.gotoToyota();
         };
 
-        try {
-            Thread.sleep(3000);
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
-        }
+        String pageTitle = BasePage.carBase.getCarTitle();
+        System.out.println(pageTitle);
+        Assert.assertEquals(pageTitle, data.get("carTitle"));
+
+//        try {
+//            Thread.sleep(3000);
+//        } catch (InterruptedException e) {
+//            throw new RuntimeException(e);
+//        }
     }
 }
