@@ -1,0 +1,17 @@
+2026-01-20 10:40:23 INFO  CarNamesAndPricesTest:53 - --- New Test Suite Execution Started ---
+2026-01-20 10:40:33 INFO  FindNewCarsTest:65 - Launching Chrome Browser
+2026-01-20 10:40:36 INFO  FindNewCarsTest:104 - Navigated to: https://www.carwale.com/
+2026-01-20 10:40:41 INFO  FindNewCarsTest:70 - Launching Firefox Browser
+2026-01-20 10:40:54 INFO  FindNewCarsTest:104 - Navigated to: https://www.carwale.com/
+2026-01-20 10:40:59 INFO  FindNewCarsTest:65 - Launching Chrome Browser
+2026-01-20 10:41:03 INFO  FindNewCarsTest:104 - Navigated to: https://www.carwale.com/
+2026-01-20 10:41:07 INFO  FindNewCarsTest:70 - Launching Firefox Browser
+2026-01-20 10:41:12 INFO  FindNewCarsTest:104 - Navigated to: https://www.carwale.com/
+2026-01-20 10:41:18 INFO  CarNamesAndPricesTest:65 - Launching Chrome Browser
+2026-01-20 10:41:22 INFO  CarNamesAndPricesTest:104 - Navigated to: https://www.carwale.com/
+2026-01-20 10:41:26 INFO  CarNamesAndPricesTest:70 - Launching Firefox Browser
+2026-01-20 10:41:31 INFO  CarNamesAndPricesTest:104 - Navigated to: https://www.carwale.com/
+2026-01-20 10:41:36 INFO  CarNamesAndPricesTest:65 - Launching Chrome Browser
+2026-01-20 10:41:39 INFO  CarNamesAndPricesTest:104 - Navigated to: https://www.carwale.com/
+2026-01-20 10:41:42 INFO  CarNamesAndPricesTest:70 - Launching Firefox Browser
+2026-01-20 10:41:47 INFO  CarNamesAndPricesTest:104 - Navigated to: https://www.carwale.com/
