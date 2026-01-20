@@ -18,7 +18,5 @@ public class Constants {
     public static String RUNMODE_NO = "N";
 
     public static String SUITE_XL_PATH = "./src/test/resources/excel/Suite.xlsx";
-    public static String SUITE1_XL_PATH = "./src/test/resources/excel/BankManagerSuite.xlsx";
-    public static String SUITE2_XL_PATH = "./src/test/resources/excel/CustomerSuite.xlsx";
     public static String SUITE3_XL_PATH = "./src/test/resources/excel/CarWaleSuite.xlsx";
 }

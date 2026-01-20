@@ -1,18 +1,10 @@
 package base;
 
-<<<<<<< HEAD
 import com.microsoft.playwright.Locator;
-=======
->>>>>>> 1902031813febc7fc87529f0d8c6c96be9e5d878
 import com.microsoft.playwright.Page;
 import extentlisteners.ExtentListeners;
 import org.testng.Assert;
 
-<<<<<<< HEAD
-import java.util.List;
-
-=======
->>>>>>> 1902031813febc7fc87529f0d8c6c96be9e5d878
 public class CarBase {
 
     public Page page;
@@ -34,7 +26,6 @@ public class CarBase {
             return null;
         }
     }
-<<<<<<< HEAD
 
     public void getCarNameAndPrice() {
         Locator carNames = page.locator(BasePage.OR.getProperty("carName_XPATH"));
@@ -44,6 +35,4 @@ public class CarBase {
             System.out.println(carNames.nth(i).innerText() + " is priced at " + carPrices.nth(i).innerText());
         }
     }
-=======
->>>>>>> 1902031813febc7fc87529f0d8c6c96be9e5d878
 }
