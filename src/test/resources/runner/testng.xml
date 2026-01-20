@@ -10,10 +10,13 @@
             <class name="testcases.FindNewCarsTest"/>
         </classes>
     </test>
+<<<<<<< HEAD
 
     <test name="Car Names and Prices Test">
         <classes>
             <class name="testcases.CarNamesAndPricesTest"/>
         </classes>
     </test>
+=======
+>>>>>>> 1902031813febc7fc87529f0d8c6c96be9e5d878
 </suite>
